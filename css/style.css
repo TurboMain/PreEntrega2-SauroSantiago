@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* <--------------- Comienzo Pag Inicio ------------------> */
+body {
+  background-color: rgb(211, 211, 181);
+}
+
+.titulo-principal {
+  text-shadow: 2px 2px 5px rgb(66, 63, 61);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.primer-parrafo {
+  text-align: center;
+}
+
+/* <----- Tercera Seccion Cards ------> */
+
+.tercera-seccion {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: rgb(75, 67, 67);
+}
+
+.tercera-seccion h4 {
+  color: aliceblue;
+  background-color: rgb(75, 67, 67);
+  text-align: center;
+}
+
+.card {
+  color: aliceblue;
+  background-color: rgb(4, 117, 111);
+  box-shadow: 2px 2px 10px rgb(190, 189, 189);
+}
+
+/* <-------- FOOTER ---------> */
+
+footer {
+  margin-top: 50px;
+  display: flex;
+  background-color: rgb(54, 50, 50);
+  color: white;
+  font-size: small;
+  justify-content: center;
+}
+
+footer a {
+  color: aliceblue;
+}
+
+.iconos {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*---------------------- COMIENZO PAGINA DESTINOS ------------------------*/
+
+.destinos a {
+  color: rgb(36, 34, 34);
+  text-shadow: 2px 2px 5px rgb(66, 63, 61);
+}
+
+.primera__seccion {
+  background-color: rgb(68, 62, 62);
+  padding-top: 15px;
+}
+
+.segunda__seccion {
+  background-color: rgb(109, 106, 106);
+  padding-top: 15px;
+}
+
+.segunda__seccion .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tercera__seccion {
+  background-color: rgb(68, 62, 62);
+  padding-top: 15px;
+}
+
+.cuarta__seccion {
+  background-color: rgb(109, 106, 106);
+  padding-top: 15px;
+}
+
+.cuarta__seccion .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quinta__seccion {
+  background-color: rgb(68, 62, 62);
+  padding-top: 15px;
+}
+
+.sexta__seccion {
+  background-color: rgb(109, 106, 106);
+  padding-top: 15px;
+}
+
+.sexta__seccion .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.septima__seccion {
+  background-color: rgb(68, 62, 62);
+  padding-top: 15px;
+}
+
+/*-------------COMIENZO PAGINA HOTELES ----------------*/
+
+.ofertas a {
+  color: rgb(36, 34, 34);
+  text-shadow: 2px 2px 5px rgb(66, 63, 61);
+}
+
+h2 {
+  text-shadow: 2px 2px 5px rgb(66, 63, 61);
+}
+
+.primera__seccion--ofertas {
+  margin-bottom: 90px;
+}
+
+.segunda__seccion--hoteles a {
+  color: rgb(36, 34, 34);
+  text-shadow: 2px 2px 5px rgb(66, 63, 61);
+}
+
+/*-------------COMIENZO PAGINA AGENCIAS DE VIAJE ----------------*/
+
+.primera__seccion--agencias a {
+  color: rgb(36, 34, 34);
+  text-shadow: 2px 2px 5px rgb(66, 63, 61);
+}
+
+/*-------------COMIENZO PAGINA FORMULARIO ----------------*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-top: 30px;
+}
+
+textarea {
+  margin-top: 30px;
+  width: auto;
+}
